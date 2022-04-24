@@ -67,8 +67,6 @@ newspapers.forEach(newspaper => {
         })
 })
 
-
-
 app.get('/', (req, res) => {
     res.json('Welcome To My Mental Health Info API')
 })
